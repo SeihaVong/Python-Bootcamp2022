@@ -1,0 +1,26 @@
+{
+   "1": {
+      "content": "python syntax",
+      "difficulty": "very easy",
+      "lesson": "1",
+      "title": "week 01"
+   },
+   "2": {
+      "content": "python data manipulation",
+      "difficulty": "easy",
+      "lesson": "2",
+      "title": "week 02"
+   },
+   "3": {
+      "content": "python files and requests",
+      "difficulty": "intermediate",
+      "lesson": "3",
+      "title": "week 03"
+   },
+   "4": {
+      "content": "python class and advanced concepts",
+      "difficulty": "hard",
+      "lesson": "4",
+      "title": "week 04"
+   }
+}

@@ -13,7 +13,7 @@ result = [  [0, 0, 0, 0],
             [0, 0, 0, 0], 
             [0, 0, 0, 0]]
 
-def matrix_subtraction(matrix1, matrix2):
+def matrix_addition(matrix1, matrix2):
     
     result = [[0, 0, 0, 0], 
             [0, 0, 0, 0], 
@@ -25,7 +25,7 @@ def matrix_subtraction(matrix1, matrix2):
         for j in range(len(matrix1[0])):
             result[i][j] = matrix1[i][j] + matrix2[i][j]
     return result
-res = matrix_subtraction(matrix1, matrix2)
+res = matrix_addition(matrix1, matrix2)
 
 for i in res:
     print(i)
