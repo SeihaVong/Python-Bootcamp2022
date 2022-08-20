@@ -6,6 +6,7 @@ def getAllData():
     return response.json()
 print(getAllData())
 
+
 def getSingleData(id):
     api_url = f"https://jsonplaceholder.typicode.com/todos/{id}"
     response = requests.get(api_url)
